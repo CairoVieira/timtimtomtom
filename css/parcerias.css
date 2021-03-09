@@ -1,0 +1,74 @@
+main {
+    background-color: var(--yellow);
+    padding-bottom: 5rem;
+    margin-top: 6rem;
+}
+
+main h1 {
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2rem 0 1rem 0;
+    color: var(--white);
+}
+
+main .container p {
+    color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    /* width: 70%; */
+}
+
+.form-row,
+.parceria-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-inputs {
+    padding: 0 0;
+}
+
+form input,
+form textarea {
+    border: 3px solid var(--green);
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    width: 90%;
+    padding-left: 0.5rem;
+    color: var(--green);
+}
+
+form textarea {
+    height: 90%;
+}
+form input[type="submit"] {
+    background-color: var(--green);
+    border: 3px solid var(--white);
+    color: var(--white);
+    cursor: pointer;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input[type="submit"]:hover {
+    width: 36%;
+    font-size: 1.75rem;
+}
+
+::placeholder {
+    color: var(--green);
+}
+
+form .telefone {
+    width: 50%;
+}
+
+main img {
+    border: 10px solid var(--white);
+    max-width: 100%;
+    height: 25rem;
+}

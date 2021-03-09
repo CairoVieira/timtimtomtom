@@ -1,0 +1,132 @@
+:root {
+    --white: #fff;
+    --green: #71d171;
+    --yellow: #fcc062;
+    --text: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-logo {
+    width: 170px;
+}
+
+body,
+button {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+}
+
+nav {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 980px;
+    z-index: 50;
+    --above-all-in-container: 10000;
+}
+
+nav > div button {
+    margin-left: 2rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 17px !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--yellow) !important;
+    border: 2px solid var(--green) !important;
+    font-size: 1.5rem !important;
+    color: var(--text);
+    cursor: pointer;
+}
+
+nav > div button:hover {
+    margin-left: 2rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 17px !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--green) !important;
+    border: 2px solid var(--yellow) !important;
+    font-size: 1.5rem !important;
+    color: var(--white);
+    cursor: pointer;
+}
+
+nav > div ul li {
+    margin: 0 0.2rem;
+    width: max-content;
+}
+
+nav > div ul li a {
+    color: var(--text) !important;
+}
+
+nav > div ul li a:hover {
+    color: gray !important;
+}
+
+.redes-sociais {
+    width: 5rem;
+    background: var(--green);
+    border-radius: 50%;
+    height: 5rem;
+    text-align: center;
+    font-size: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais a {
+    color: var(--white);
+}
+
+.all-redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin: 2rem 0;
+    color: var(--green);
+}
+
+.footer-logo {
+    width: 90%;
+}
+
+footer .row p {
+    line-height: 1.2;
+}
+
+.footer-info {
+    padding-left: 5rem;
+}
+
+.footer-dados {
+    line-height: 1.1;
+}
+
+.footer-dados label i {
+    margin-right: 10px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+a.anchor-ong {
+    display: block;
+    position: relative;
+    top: -30px;
+    visibility: hidden;
+}

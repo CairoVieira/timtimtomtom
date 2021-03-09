@@ -1,0 +1,58 @@
+main {
+    background-color: var(--yellow);
+    padding-bottom: 5rem;
+    margin-top: 6rem;
+}
+
+main h1 {
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2rem 0 1rem 0;
+    color: var(--white);
+}
+
+.doacao-imagem img {
+    border: 10px solid var(--white);
+    max-width: 100%;
+    height: 40rem;
+}
+
+.text-contribua {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+.conta-bancaria p {
+    background-color: var(--white);
+    color: var(--green);
+    border-radius: 10px;
+    border: 2px solid var(--green);
+    padding: 1rem 2rem;
+}
+
+.qr-code {
+    margin-top: 2rem;
+}
+
+.qr-code img {
+    width: 14rem;
+    border: 2px solid var(--green);
+    border-radius: 10px;
+}
+
+.link-picpay a {
+    text-decoration: none;
+    color: var(--white) !important;
+    font-size: 1.4rem;
+}
+
+.conta-bancaria,
+.text-contribua,
+.qr-code,
+.link-picpay,
+.doacao-imagem {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
