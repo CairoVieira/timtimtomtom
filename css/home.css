@@ -41,7 +41,7 @@ main {
     padding: 0 3rem 3rem 3rem;
 }
 
-.como-ajudar button {
+.como-ajudar a {
     position: absolute;
     top: 85%;
     left: 50%;
@@ -52,9 +52,11 @@ main {
     background-color: transparent;
     width: 80%;
     color: var(--white);
+    text-decoration: none;
+    text-align: center;
 }
 
-.como-ajudar button:hover {
+.como-ajudar a:hover {
     position: absolute;
     top: 85%;
     left: 50%;

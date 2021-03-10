@@ -17,22 +17,17 @@ main .container p {
     margin-right: auto;
 }
 
-form {
-    /* width: 70%; */
-}
-
-.form-row,
-.parceria-imagem {
+.form-row, .parceria-imagem {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .form-inputs {
     padding: 0 0;
 }
 
-form input,
-form textarea {
+form input, form textarea {
     border: 3px solid var(--green);
     border-radius: 15px;
     margin-bottom: 1.5rem;
@@ -43,7 +38,9 @@ form textarea {
 
 form textarea {
     height: 90%;
+    width: 125%;
 }
+
 form input[type="submit"] {
     background-color: var(--green);
     border: 3px solid var(--white);
@@ -70,5 +67,5 @@ form .telefone {
 main img {
     border: 10px solid var(--white);
     max-width: 100%;
-    height: 25rem;
+    height: 20rem;
 }

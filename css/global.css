@@ -13,8 +13,7 @@ html {
     width: 170px;
 }
 
-body,
-button {
+body, button {
     font-family: "Roboto", sans-serif;
     font-size: 1.7rem;
 }
@@ -31,7 +30,7 @@ nav {
     --above-all-in-container: 10000;
 }
 
-nav > div button {
+nav>div .button {
     margin-left: 2rem;
     width: 10rem;
     height: 3rem;
@@ -42,9 +41,13 @@ nav > div button {
     font-size: 1.5rem !important;
     color: var(--text);
     cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-nav > div button:hover {
+nav>div .button:hover {
     margin-left: 2rem;
     width: 10rem;
     height: 3rem;
@@ -57,16 +60,17 @@ nav > div button:hover {
     cursor: pointer;
 }
 
-nav > div ul li {
-    margin: 0 0.2rem;
+nav>div ul li {
+    margin: 0 0.1rem;
     width: max-content;
+    font-size: 1.5rem;
 }
 
-nav > div ul li a {
+nav>div ul li a {
     color: var(--text) !important;
 }
 
-nav > div ul li a:hover {
+nav>div ul li a:hover {
     color: gray !important;
 }
 
